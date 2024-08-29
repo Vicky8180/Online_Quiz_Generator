@@ -1,3 +1,6 @@
+
+
+
 const userModel = require("../../models/userSchema");
 const moment = require("moment");
 
@@ -69,9 +72,12 @@ const quizAnalysis = async (req, res) => {
       MainData.questionCount += quiz.questions.length;
     }
 
+    // Sort the quizzes by impression in descending order
+    MainData.quizArray.sort((a, b) => b.impression - a.impression);
+
     return res
       .status(200)
-      .json({ message: "Successfully fetch", data: MainData, error: "" });
+      .json({ message: "Successfully fetched", data: MainData, error: "" });
   } catch (error) {
     return res
       .status(500)
@@ -80,4 +86,3 @@ const quizAnalysis = async (req, res) => {
 };
 
 module.exports = { quizAnalysis };
-

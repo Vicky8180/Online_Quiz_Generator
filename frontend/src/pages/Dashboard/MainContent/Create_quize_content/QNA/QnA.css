@@ -5,9 +5,13 @@
   /* width: 700px; */
   width: 55vw; /*   here */
   height: 70vh;
-  padding: 10px;
+
   justify-content: space-between;
   min-width: 700px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
 }
 
 .qna_question_count {
