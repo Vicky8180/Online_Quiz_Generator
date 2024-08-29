@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&display=swap");
+
+.auth_container_main {
+  width: 83%;
+  background-color: rgba(255, 255, 255, 1);
+  height: 74%;
+  margin-top: 95px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.auth_container_title {
+  display: flex;
+  justify-content: center;
+  height: 14vh;
+}
+
+.auth_container_double_btns {
+  width: 100%;
+  /* background-color: aqua; */
+  margin-bottom: 40px;
+  margin-top: 15px;
+}
+
+.auth_container_double_btns button {
+  width: 180px;
+  margin-left: 40px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  /* box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24); */
+  border: none;
+
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: rgba(71, 68, 68, 1);
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.buttonnotclick {
+  /* width: 180px;
+    margin-left: 40px;
+    height: 30px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 10px; */
+  box-shadow: 0px 0px 50px 0px rgba(0, 25, 255, 0.24);
+  border: none;
+}
+
+.buttononclick {
+  border: none;
+}

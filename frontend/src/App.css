@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+  width: 100%;
+   background: rgba(242, 242, 242, 1);
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+input{
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: 
+  rgba(159, 159, 159, 1);
+  font-size: 20px;
+  line-height: 47px;
+}
+
+
+input::-webkit-input-placeholder{
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: 
+  rgba(159, 159, 159, 1);
+  font-size: 20px;
+  line-height: 47px;
+}
+
+
+input:focus {
+  
+  border-color: #28a745;
+  border-radius: 10px;
+  outline-color: rgb(145, 145, 145);
+  outline-width: 0.1px;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  color: 
+  rgb(145, 145, 145);
+  font-size: 20px;
+  line-height: 37px;
+}
+
+button:hover{
+  transform: scale(1.1);
+  cursor: pointer;
+}

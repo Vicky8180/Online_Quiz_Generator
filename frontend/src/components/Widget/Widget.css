@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.widget_container {
+  width: 32%;
+  height: 15vh;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 12px;
+  min-width: 230px;
+  max-width: 310px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+.widget_container h1 {
+  margin: 0 auto;
+
+  display: inline-block;
+  width: 150px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 8px;
+
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 70px;
+  transform: scaleY(1.8);
+  transform: scaleX(0.9);
+  /* letter-spacing: 2px; */
+}
+
+.widget_container h2 {
+  display: inline;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-right: 5px;
+}

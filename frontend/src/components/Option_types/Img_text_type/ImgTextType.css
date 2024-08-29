@@ -1,0 +1,58 @@
+.img_text_type_container {
+  width: 750px;
+  height: auto;
+  /* background-color: aquamarine; */
+}
+
+.img_text_type_input_filed {
+  display: flex;
+  align-items: center;
+}
+.img_text_type_input {
+  width: 320px;
+  height: 50px;
+  min-width: 220px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+
+.img_text_type_input.selected {
+  background-color: rgba(96, 184, 75, 1);
+}
+
+.img_text_type_input.selected::placeholder {
+  color: white;
+}
+
+.img_text_type_input::placeholder {
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(159, 159, 159, 1);
+  line-height: 30px;
+  padding-left: 20px;
+}
+
+.img_text_type_add_btn {
+  width: 325px;
+  height: 50px;
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  background-color: rgba(255, 255, 255, 1);
+
+  font-size: 20px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+  color: rgba(159, 159, 159, 1);
+  line-height: 30px;
+  padding-left: 20px;
+}

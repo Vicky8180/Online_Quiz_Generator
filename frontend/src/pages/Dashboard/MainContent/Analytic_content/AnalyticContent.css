@@ -1,0 +1,132 @@
+.analytic_content_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.analytic_content_main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 84%;
+}
+
+.analytic_content_container h1 {
+  height: 8vh;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: rgba(80, 118, 255, 1);
+  font-size: 50px;
+  line-height: 75px;
+  margin: 0;
+}
+
+.analytic_content_table {
+  height: 70vh;
+  overflow: auto;
+  min-width: 1029px;
+  /* margin-top: -20px; */
+  position: relative;
+}
+
+.analytic_content_table::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+#table_heading {
+  background: rgba(80, 118, 255, 1);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 35px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 1px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+#table_heading th:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+#table_heading th:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.table_body_row:nth-child(even) {
+  background-color: rgba(179, 196, 255, 1);
+  height: 43px;
+}
+
+.table_body_row:nth-child(odd) {
+  background-color: rgba(237, 237, 237, 1);
+  height: 43px;
+}
+
+.table_body_row:nth-child(even) td:first-child {
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+
+.table_body_row:nth-child(even) td:last-child {
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.table_body_row:nth-child(odd) {
+  background-color: rgba(237, 237, 237, 1);
+  border-radius: 10px;
+  height: 43px;
+}
+
+.table_body_row td {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  padding: 10px;
+  letter-spacing: 1px;
+}
+
+.table_body_row_2nd {
+  max-height: 40px;
+  max-width: 100%;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+  /* text-overflow: ellipsis;  */
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table_body_row td:last-child {
+  text-decoration: underline;
+}
+
+.table_body_col5 {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  width: 90px;
+}
+
+.table_body_col5 td {
+  padding: 0;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.analytic_content_table th {
+  margin-left: 5px;
+  margin-right: 5px;
+}

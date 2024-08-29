@@ -1,0 +1,56 @@
+.dashboard_content_container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.dashboard_content_top_component {
+  width: 75%;
+
+  height: 15vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard_content_bottom_component {
+  width: 75%;
+  margin-top: -40px;
+  /* background-color: rgb(0, 255, 128); */
+  height: 50vh;
+}
+
+.dashboard_content_bottom_component p {
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  color: rgba(71, 68, 68, 1);
+  /* margin-top: 8px; */
+
+  font-size: 30px;
+
+  line-height: 50px;
+  /* transform: scaleY(1.8);
+    transform: scaleX(0.9); */
+  /* letter-spacing: 2px; */
+}
+
+.dashboard_content_quizs {
+  display: flex;
+  height: 90%;
+  justify-content: space-between;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  overflow: auto;
+  min-width: 700px;
+}
+
+.dashboard_content_quizs::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}

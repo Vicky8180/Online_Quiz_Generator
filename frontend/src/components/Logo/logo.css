@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Jomhuria&display=swap');
+
+.logo_container{
+    height: 10vh;
+    /* width: 12vw; */
+   
+}
+
+.logo_container h1{
+    font-size: 85px;
+    font-weight: 600;
+    font-family: "Jomhuria", serif;
+    color: rgba(71, 68, 68, 1);
+    line-height: 70px;
+    transform: scaleY(1.2);
+    transform: scaleX(1.1);
+    letter-spacing: 2px;
+  }
+
