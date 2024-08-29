@@ -2,13 +2,14 @@
 
 .widget_container {
   width: 32%;
-  height: 15vh;
+  height: auto;
   background-color: rgba(255, 255, 255, 1);
   border-radius: 12px;
   min-width: 230px;
   max-width: 310px;
   margin-left: 2px;
   margin-right: 2px;
+  padding-bottom: 15px;
 }
 .widget_container h1 {
   margin: 0 auto;

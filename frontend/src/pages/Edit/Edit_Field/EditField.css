@@ -5,19 +5,26 @@
 .tui {
   padding-left: 50px;
   padding-right: 50px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  width: 900px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  width: 55vw;
+  min-width: 700px;
+  height: 70vh;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   /* height: 600px; */
+
 }
 
 .edit_question_box {
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
+  height: 7vh;
 }
 .edit_question_box input {
   width: 96%;
   margin-left: 1%;
-  height: 48px;
+  height: 6vh;
   border-radius: 10px;
   border: none;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
@@ -35,12 +42,23 @@
 
 .edit_option_body {
   display: flex;
-  margin-top: 40px;
+  width: 55vw;
+  min-width: 700px;
+  /* margin-top: 40px; */
+  height: 35vh;
   /* background-color: red; */
+}
+.edit_container{
+  height: 45vh;
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 
 .edit_option_box {
-  width: 80%;
+  width: 45vw;
+  min-width: 556px;
   /* background-color: aquamarine; */
 }
 
@@ -49,22 +67,22 @@
   align-items: center;
 }
 .edit_option_each_input {
-  width: 300px;
-  height: 50px;
-  min-width: 220px;
+  width: 19vw;
+  height: 6vh;
+  min-width: 240px;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   border-radius: 10px;
   border: none;
-  margin-top: 5px;
+  margin-top: 7px;
   margin-left: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 
-  text-align: center;
+  /* text-align: center;
   align-items: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
   color: rgba(71, 68, 68, 1);
-  font-size: 17px;
+  font-size: 17px; */
 }
 
 .edit_option_each_input.selected {
@@ -74,7 +92,7 @@
   align-items: center;
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  color: rgba(71, 68, 68, 1);
+  color:white;
   font-size: 18px;
 }
 
@@ -118,15 +136,17 @@
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
-  padding-left: 20px;
+  justify-content: space-around;
+  min-width: 150px;
+  /* padding-left: 20px; */
   /* padding-top: -50px; */
-  height: 250px;
+  height: 35vh;
 }
 
 .edit_option_timer_type {
-  width: 120%;
-  font-size: 20px;
+  width: 8vw;
+  min-width: 80px;
+  font-size: 2vh;
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.15);
   font-weight: 500;
   font-family: "Poppins", sans-serif;
@@ -136,7 +156,7 @@
   line-height: 30px;
   display: flex;
   justify-content: center;
-  height: 30px;
+  height: 3.7vh;
   align-items: center;
   background-color: rgba(80, 118, 255, 1);
   border-radius: 5px;
@@ -144,12 +164,13 @@
 
 .edit_update_btns {
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  justify-content: space-around;
+  /* margin-top: 20px; */
+  margin-bottom: 30px;
+  height: 6vh;
 }
 .edit_update_btn1 {
-  width: 45%;
+  width: 35%;
   margin-left: 2px;
   background-color: rgba(255, 255, 255, 1);
   border: none;
@@ -166,7 +187,7 @@
 }
 
 .custom-input-style {
-  text-align: center;
+  /* text-align: center;
   border-radius: 10px;
   align-items: center;
   font-family: "Poppins", sans-serif;
@@ -174,12 +195,12 @@
   color: rgba(71, 68, 68, 1);
   font-size: 20px;
   border: 1px solid #ccc;
-  padding: 10px;
+  padding: 1px; */
 }
 
 .edit_update_btn2 {
   margin-right: 2px;
-  width: 45%;
+  width: 35%;
   background-color: rgba(96, 184, 75, 1);
   border: none;
   text-align: center;

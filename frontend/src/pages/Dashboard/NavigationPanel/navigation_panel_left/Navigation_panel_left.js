@@ -14,13 +14,14 @@ import axios from "axios";
 import { useDispatch, useSelector } from "react-redux";
 import { analysisData, validator } from "../../../../action/index";
 import Toast from "../../../../containers/toast/Toast.js";
+import Loader from "../../../../components/Loder/Loader";
 
 export default function Navigation_panel_left() {
   const [dashboardContent, setDashboardContent] = useState(true);
   const [analyticContennt, setAnalyticContent] = useState(false);
   const [quizCreate, setQuizCreate] = useState(false);
   const [analysisDataState, setAnalysisDataState] = useState(null);
-
+const [loading, setLaoding]=useState(false);
   const state2 = useSelector((state) => state.admin);
   const { state } = useLocation();
   const navigate = useNavigate();
@@ -35,6 +36,7 @@ export default function Navigation_panel_left() {
       dispatch(validator(state));
 
       const getQuizDetailsAPI = async () => {
+       setLaoding(true)
         try {
           const token = localStorage.getItem("token");
           const response = await axios.post(
@@ -65,6 +67,8 @@ export default function Navigation_panel_left() {
           } else {
             Toast(`Error with ${error.code}`, false);
           }
+        }finally{
+          setLaoding(false)
         }
       };
 
@@ -105,7 +109,8 @@ export default function Navigation_panel_left() {
     <>
       <div className="navigation_panel_container">
         <div className="navigation_panel_left">
-          <div className="navigation_panel_title">
+          <div className="navigation_panel_title" style={{marginTop:"30px"}}>
+        
             <Logo />
           </div>
           <div className="navigation_panel_navigator">
@@ -193,6 +198,8 @@ export default function Navigation_panel_left() {
           )}
         </div>
       </div>
+
+      {loading&& <Loader/>}
     </>
   );
 }

@@ -1,21 +1,44 @@
 .login-form {
-  width: 57%;
+  width: 50vw;
   margin: 0 auto;
-  padding: 20px;
-  height: 245;
+  
+  margin-top: 40px;
+  height: 35vh;
   border: none;
-  margin-top: 100px;
-  /* border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+ 
   background: rgba(255, 255, 255, 1);
-  /* padding-right: 10%; */
-  /* margin-right: 28%; */
+  
   margin-right: 20%;
+  display: flex;
+  align-items: center;
+ justify-content:flex-start;
+  flex-direction: column;
+  min-width: 700px;
+
+
+  /* width: 50vw;
+  margin: 0 auto;
+
+  min-width: 700px;
+  height: 45vh;
+  border: none;
+  margin-top: 0px;
+  background: rgba(255, 255, 255, 1);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column; */
 }
 
 .form-group_login {
+  /* margin-bottom: 25px;
+  display: flex;
+  justify-content: flex-end; */
+
   margin-bottom: 25px;
   display: flex;
+  min-width: 700px;
   justify-content: flex-end;
 }
 
@@ -33,10 +56,11 @@
 }
 
 .form-group_login input {
-  width: 64%;
+  width: 65%;
   padding: 8px;
+ 
   border: none;
-  height: 38px;
+  height: 4vh;
   /* border-radius: 4px; */
   background-color: rgba(244, 244, 244, 1);
   border-radius: 10px 10px 0px 0px;
@@ -45,8 +69,8 @@
 
 .bottom_btn {
   width: 250px;
-  margin-left: 40px;
-  margin-top: 50px;
+  /* margin-left: 40px;
+  margin-top: 50px; */
   height: 38px;
   background: rgba(169, 188, 255, 1);
 

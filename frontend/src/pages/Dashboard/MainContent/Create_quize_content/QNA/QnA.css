@@ -2,10 +2,12 @@
   display: flex;
   flex-direction: column;
   background-color: rgba(255, 255, 255, 1);
-  width: 700px;
-  width: 900px; /*   here */
-  height: 600px;
-  padding: 40px;
+  /* width: 700px; */
+  width: 55vw; /*   here */
+  height: 70vh;
+  padding: 10px;
+  justify-content: space-between;
+  min-width: 700px;
 }
 
 .qna_question_count {
@@ -29,13 +31,23 @@
 .qna_options_list {
   display: flex;
   justify-content: space-between;
+  height: 35vh;
+  width: 55vw;
+  min-width: 700px
 }
 
 .qna_options {
-  padding-top: 20px;
+  /* padding-top: 20px; */
+  width: 45vw;
+  min-width: 554px;
+
 }
 .qna_timers {
-  padding-top: 80px;
+  /* padding-top: 80px; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: 5vh;
 }
 
 .qna_btns {
@@ -46,11 +58,12 @@
 
 .quiz_create_btns {
   display: flex;
-  justify-content: space-between;
-  margin-top: 50px;
+  justify-content: space-around;
+  height: 5.5vh;
+  /* margin-top: 50px; */
 }
 .quiz_create_btn1 {
-  width: 45%;
+  width: 35%;
   margin-left: 2px;
   background-color: rgba(255, 255, 255, 1);
   border: none;
@@ -68,7 +81,7 @@
 
 .quiz_create_btn2 {
   margin-right: 2px;
-  width: 45%;
+  width: 35%;
   background-color: rgba(96, 184, 75, 1);
   border: none;
   text-align: center;

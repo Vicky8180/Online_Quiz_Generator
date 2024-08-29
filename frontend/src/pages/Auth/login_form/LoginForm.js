@@ -136,7 +136,7 @@ export default function LoginForm() {
           />
         </div>
 
-        <button className="bottom_btn" type="submit" disabled={loading}>
+        <button className="bottom_btn" style={{marginTop:"50px"}} type="submit" disabled={loading}>
           Log In
         </button>
 

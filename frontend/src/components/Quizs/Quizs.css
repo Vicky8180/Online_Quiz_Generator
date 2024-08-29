@@ -2,13 +2,14 @@
   width: 21%;
   background: rgba(255, 255, 255, 1);
 
-  height: 9vh;
+  height: auto;
   margin-left: 20px;
   margin-right: 20px;
   border-radius: 5px;
   margin-bottom: 40px;
   min-width: 190px;
   max-width: 220px;
+  max-height: 90px;
 }
 
 .quizs_name {

@@ -193,7 +193,8 @@ export default function EditField({ EditHandleClose, editData }) {
           <div className="tui" id="tui2">
             <div
               className="question_create_container"
-              style={{ height: "100px" }}
+              style={{ height: "7vh" , width:"55vw"}}
+
             >
               <div className="question_create_header">
                 <div className="question_create_list">

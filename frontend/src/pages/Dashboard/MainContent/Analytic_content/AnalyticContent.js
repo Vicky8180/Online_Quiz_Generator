@@ -56,8 +56,16 @@ export default function AnalyticContent({ analysisData }) {
         alert(`Error with ${error.code}`);
       }
     }
+
   };
 
+  const formatImpressions = (impressions) => {
+    if (impressions < 1000) return impressions.toString();
+    if (impressions >= 1000 && impressions < 1e6) return (impressions / 1e3).toFixed(1) + "K";
+    if (impressions >= 1e6 && impressions < 1e9) return (impressions / 1e6).toFixed(1) + "M";
+    if (impressions >= 1e9) return (impressions / 1e9).toFixed(1) + "B";
+    return impressions.toString();
+  };
   const handleDeleteClick = (quizId) => {
     setQuizToDelete(quizId);
     setRUSureDelete(true);
@@ -162,8 +170,8 @@ export default function AnalyticContent({ analysisData }) {
                             {row.quizName}
                           </div>
                         </td>
-                        <td>{row.createdAt}</td>
-                        <td>{row.impression}</td>
+                        <td className="table_body_row_2nd">{row.createdAt}</td>
+                        <td>{formatImpressions(row.impression)}</td>
                         <td
                           className="table_body_col5"
                           style={tableBodyCol5Style}

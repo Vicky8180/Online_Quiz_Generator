@@ -1,31 +1,33 @@
 .timer_container {
-  width: 95px;
+  width: 8vw;
   height: 185px;
+  min-width: 100px;
   background-color: transparent;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  /* align-items: center; */
+  align-items: center;
 }
 
 .timer_header {
   text-align: center;
 
-  font-size: 20px;
+  font-size: 2vh;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: rgba(159, 159, 159, 1);
   line-height: 30px;
+  min-width: 80px;
 }
 .timer_off button {
-  width: 100%;
-  height: 34px;
+  width: 8vw;
+  height: 3.7vh;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
   background-color: rgba(255, 255, 255, 1);
   border: none;
   border-radius: 10px;
-
-  font-size: 15px;
+min-width: 80px;
+  font-size: 2vh;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: rgba(159, 159, 159, 1);
@@ -33,14 +35,15 @@
 }
 
 .timer_5sec button {
-  width: 100%;
-  height: 34px;
+  width: 8vw;
+  min-width: 80px;
+  height: 3.7vh;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
   background-color: rgba(255, 255, 255, 1);
   border: none;
   border-radius: 10px;
 
-  font-size: 15px;
+  font-size: 2vh;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: rgba(159, 159, 159, 1);
@@ -48,14 +51,14 @@
 }
 
 .timer_10sec button {
-  width: 100%;
-  height: 34px;
+  width: 8vw;
+  height: 3.7vh;;
   box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.15);
   background-color: rgba(255, 255, 255, 1);
   border: none;
   border-radius: 10px;
-
-  font-size: 15px;
+  min-width: 80px;
+  font-size: 2vh;
   font-weight: 500;
   font-family: "Poppins", sans-serif;
   color: rgba(159, 159, 159, 1);

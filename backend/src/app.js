@@ -1,33 +1,3 @@
-// const express = require('express')
-// const app = express();
-// const db=require("./config/db")
-// const dotenv= require('dotenv')
-// dotenv.config()
-// const cookieParser = require('cookie-parser');
-
-// const cors = require('cors');
-
-// app.use(cors({
-//   origin: 'http://localhost:3000', 
-//   credentials: true, 
-// }));
-
-
-// const PORT = process.env.PORT || 5000;
-// db();
-
-// // Middleware to parse JSON
-// app.use(express.json());
-// app.use(cookieParser());
-// // Routes
-// app.use('/api/auth', require("./routes/authRoute"));
-
-// app.use('/api/quiz', require('./routes/quizRoute'));
-
-
-// app.listen(PORT, ()=>{
-//     console.log(`Server is runnning on port no ${PORT}`)
-// })
 
 
 const express = require('express');

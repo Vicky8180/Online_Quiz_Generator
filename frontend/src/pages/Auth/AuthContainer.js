@@ -34,7 +34,7 @@ export default function AuthContainer() {
             Log In
           </button>
         </div>
-        {btnSelect ? <LoginForm /> : <SignUpForm logIn={logIn} />}
+        {btnSelect ? <div style={{marginTop:"-20px"}}><LoginForm /> </div>: <div> <SignUpForm logIn={logIn} /> </div>}
       </div>
     </>
   );

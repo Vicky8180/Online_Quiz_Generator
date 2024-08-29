@@ -9,7 +9,7 @@
 .dashboard_content_top_component {
   width: 75%;
 
-  height: 15vh;
+  height: auto;
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +18,7 @@
   width: 75%;
   margin-top: -40px;
   /* background-color: rgb(0, 255, 128); */
-  height: 50vh;
+  height: 57vh;
 }
 
 .dashboard_content_bottom_component p {
@@ -42,12 +42,15 @@
 
 .dashboard_content_quizs {
   display: flex;
-  height: 90%;
+  /* height: auto; */
+  height: 47vh;
+
   justify-content: space-between;
   margin-top: 40px;
   flex-wrap: wrap;
   overflow: auto;
   min-width: 700px;
+
 }
 
 .dashboard_content_quizs::-webkit-scrollbar {
