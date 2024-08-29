@@ -67,6 +67,7 @@ export default function LoginForm() {
 
   const logInAPI = async () => {
     setLoading(true);
+    console.log(`${process.env.REACT_APP_BASE_URL_PORT}`)
     try {
       const response = await axios.post(
         `${process.env.REACT_APP_BASE_URL_PORT}/api/auth/login`,

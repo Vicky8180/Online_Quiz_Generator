@@ -22,7 +22,7 @@ const  dynamicUrlGenerator=async(req, res)=>{
         }
         const updateUrlIdInQuiz=await quizModel.updateOne({_id:quizId},{urlId:uniqueId})
         
-         const url = `http://localhost:3000/api/quiz/${uniqueId}/quizlive`;
+         const url = `https://online-quiz-generator.vercel.app/api/quiz/${uniqueId}/quizlive`;
          return res.status(200).json({ message:"Successfully Generated quiz URL", error:"",data:url});
     } catch (error) {
         

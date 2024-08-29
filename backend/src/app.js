@@ -38,7 +38,7 @@ const dotenv = require('dotenv');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 
-const allowedOrigins = ['http://localhost:3000', 'http://another-origin.com'];
+const allowedOrigins = ['http://localhost:3000','https://online-quiz-generator.vercel.app', 'http://another-origin.com'];
 // app.use(cors())
 dotenv.config();
 app.use((req, res, next) => {
