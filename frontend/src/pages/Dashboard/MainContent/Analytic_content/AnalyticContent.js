@@ -68,7 +68,7 @@ export default function AnalyticContent({ analysisData }) {
   };
 
   const CreateCopyUrl = (data) => {
-    const url = `http://localhost:3000/api/quiz/${data}/quizlive`;
+    const url = `https://online-quiz-generator.vercel.app/api/quiz/${data}/quizlive`;
     navigator.clipboard.writeText(url);
     const ele = document.getElementById("share_id_copied");
     // CopiedEffect(ele, '-200%', '58vw');
